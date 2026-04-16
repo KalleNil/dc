@@ -17,3 +17,9 @@ export interface Action {
   args: string[];
   target: "directory" | "file" | "both";
 }
+
+export interface Bookmark {
+  path: string;
+  label: string;
+  createdAt: string;
+}

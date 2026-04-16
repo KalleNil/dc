@@ -101,9 +101,22 @@ dc() {
 | Enter | Select directory (tree) / Open file or enter folder (file list) |
 | a-z, 0-9 | Jump to next item starting with that character |
 | Ctrl+F | Filter current panel (live search) |
+| Ctrl+B | Bookmark current directory |
+| Ctrl+J | Open / close bookmarks panel |
 | Ctrl+P | Toggle info panel |
 | Ctrl+C | Exit without changing directory |
 | Esc | Clear filter (if active) / Exit without changing directory |
+
+## Bookmarks
+
+Bookmarks are stored in `~/.dc/bookmarks.json` and persist across sessions.
+
+| Key | Action |
+|-----|--------|
+| ↑/↓ | Navigate bookmarks |
+| Enter | Jump to bookmarked directory |
+| d / Delete | Remove bookmark |
+| Esc / Ctrl+J | Close bookmarks panel |
 
 ## Actions
 
