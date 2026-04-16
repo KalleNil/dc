@@ -1,0 +1,23 @@
+[
+  {
+    "key": "o",
+    "label": "VS Code",
+    "command": "code",
+    "args": ["{path}"],
+    "target": "both"
+  },
+  {
+    "key": "t",
+    "label": "Terminal",
+    "command": "wt",
+    "args": ["-d", "{path}"],
+    "target": "directory"
+  },
+  {
+    "key": "e",
+    "label": "Explorer",
+    "command": "explorer",
+    "args": ["{path}"],
+    "target": "directory"
+  }
+]
