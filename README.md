@@ -1,7 +1,7 @@
 # DC - Directory Changer
 
 A terminal-based directory navigator inspired by classic 80s file managers. Built with [Ink](https://github.com/vadimdemedes/ink).
-
+random change to make the hook trigger
 ## Setup
 
 ```bash
